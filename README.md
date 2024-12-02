@@ -1,4 +1,4 @@
-# Python/Flask CI/CD
+# Microservices CI/CD
 
 This repository contains a simple Flask app that serves user and product information via RESTful endpoints and we will Dockerize the application then provision AKS and configure a CI/CD pipeline using Azure DevOps to automate the build and deployment process. 
 
@@ -220,8 +220,8 @@ here is my own deployed Load Balancer to test the deployed app:
 Example commands to test the deployed app:
 
 curl http://98.66.247.107:5000/users
-# Expected output: [{"id":1,"name":"John Doe"},{"id":2,"name":"Jane Doe"}]
+Expected output: [{"id":1,"name":"John Doe"},{"id":2,"name":"Jane Doe"}]
 
 curl http://98.66.247.107:5000/products
-# Expected output: [{"id":1,"name":"Laptop"},{"id":2,"name":"Smartphone"}]
+Expected output: [{"id":1,"name":"Laptop"},{"id":2,"name":"Smartphone"}]
 
