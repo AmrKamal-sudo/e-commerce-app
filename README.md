@@ -67,12 +67,12 @@ Expected output:
 
 ---
 
-# we will outline two deployment methods for Azure Kubernetes Service (AKS): one using Terraform and the other by manually creating the AKS cluster via the Azure Portal.
+## We will outline two deployment methods for AKS: one using Terraform and the other by manually creating the AKS cluster via the Azure Portal.
+---
+#### For AKS creation with Terraform [Click Here](https://github.com/AmrKamal-sudo/Microservices/tree/main/Terraform-files)
 
-# For AKS creation with Terraform [Click Here](https://github.com/AmrKamal-sudo/Microservices/tree/main/Terraform-files)
-
-# In the following section I will guide you through the manual creation of an Azure Kubernetes Service (AKS) cluster using the Azure Portal, followed by the setup of a CI/CD pipeline for deploying our Python/Flask application."
-
+#### In the following section I will guide you through the manual creation of an Azure Kubernetes Service (AKS) cluster using the Azure Portal, followed by the setup of a CI/CD pipeline for deploying our Python/Flask application."
+---
 ## Prerequisites
 
 Before starting, ensure you have the following:
@@ -120,7 +120,7 @@ During the pipeline configuration, you will be asked to provide details about yo
 
 ### 4. CI/CD Pipeline Configuration
 
-Here is the YAML configuration for the pipeline that automates the build and deployment of your Flask app.
+Here is the YAML configuration for the pipeline that automates the build and deployment of your Flask app `(Make sure you edit the resource names if you use the pipeline yaml file below to match your own resources)`.
 
 ```yaml
 trigger:
